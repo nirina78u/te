@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+
+    <!-- PC HEAD  -->
+<section>
+    <div class="head">
+        <div><a href="#home" class="child-head"><strong>Home</strong></a></div>
+        <div><a href="#about_me" class="child-head"><strong>About me</strong></a></div>
+        <div><a href="#contact" class="child-head"><strong>Contact</strong></a></div>
+        <div class="child-head"><strong onclick="toggle_login()">Login</strong></div>
+    </div>
+</section>
+
+    <!-- MOBILE HEAD & ...  -->
+
+<section>
+    <div>
+        <img src="./icone/menu_bar.png" class="icone-menue" width="30px" onclick="toggle_menue()" alt="">
+    </div>
+    <div class="head-mobile-border" id="mobile_head">
+    <div class="content-mobile-head">
+        <div><a href="#home" class="child-head-mobile"><strong><img src="./icone/home(2).png" class="icone-menue" width="18px" onclick="toggle_menue()" alt="">Home</strong></a></div>
+        <div><a href="#about_me" class="child-head-mobile"><strong><img src="./icone/user(2).png" class="icone-menue" width="18px" onclick="toggle_menue()" alt="">About me</strong></a></div>
+        <div><a href="#contact" class="child-head-mobile"><strong><img src="./icone/phone_call.png" class="icone-menue" width="18px" onclick="toggle_menue()" alt="">Contact</strong></a></div>
+        <div class="child-head-mobile"><strong onclick="toggle_login()"><img src="./icone/admin_alt.png" class="icone-menue" width="18px" onclick="toggle_menue()" alt="">Login</strong></div>
+    </div>
+    </div>
+</section>
+
+
+
+<section>
+    <div class="login">
+    <form action="" class="content-login" id="content_login">
+    <h2><em>Login</em></h2>
+    <input type="text" class="input-login" placeholder="Your full name">
+    <br><br>
+    <input type="text" class="input-login" placeholder="User-name">
+    <br><br>
+    <input type="text" class="input-login" placeholder="Password">
+    <br><br>
+    <button type="button" class="btn-login"><strong>Login</strong></button>
+</form>
+</div>
+</section>
+
+<div class="break-pc">
+    <br><br><br><br>
+</div>
+
+<div class="break-mobile">
+    <br><br>
+</div>
+
+<section class="cards">
+
+    <!-- PROJECT  -->
+    <div class="content-card">
+      <div class="child-card">
+      <h2>Project</h2>
+      <button class="btn-see">See</button>
+      <br><br>
+      </div>
+    </div>
+
+    <!-- CONTACT  -->
+     <div class="content-card">
+        <div class="child-card">
+            <br>
+        <h2>Contact</h2>
+        <img src="./icone/facebook(2).png" width="50px" alt="">
+        <img src="./icone/instagram_circle.png" width="50px" alt="">
+        <br>
+        <img src="./icone/phone_call.png" width="50px" alt="">
+        <img src="./icone/gmail.png" width="50px" alt="">
+        <br>
+        <img src="./icone/" alt="">
+        <br>
+        </div>
+     </div>
+
+    <div class="content-card">
+        <div class="child-card">
+            <br>
+        <h2>Gallerie</h2>
+        <button class="btn-photo">See</button>
+        <br><br>
+        </div>
+     </div>
+
+    
+</section>
+
+<br><br><br>
+
+    <script src="index.js"></script>
+</body>
+</html>
